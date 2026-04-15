@@ -7,6 +7,12 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@300..700&family=Outfit:wght@100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
 
 </head>
 
@@ -17,7 +23,7 @@
 
         <nav class="navegacion">
 
-            <a href=""><img class="logo" src="./img/2.png" alt=""></a>
+            <a href="index.html"><img class="logo" src="./img/G ..png" alt=""></a>
 
             <ul class="menu">
 
@@ -29,8 +35,8 @@
 
             <ul class="compras">
 
-                <a href=""><img class="menucompras" src="./img/magnifying-glass-solid-full.svg" alt=""></a>
-                <a href=""><img class="menucompras" src="./img/circle-user-regular-full.svg" alt=""></a>
+                <a href=""><img class="menucompras" src="./img/user-solid-full.svg" alt=""></a>
+                <a href=""><img class="menucompras" src="./img/magnifying-glass-solid-full (1).svg" alt=""></a>
 
             </ul>
 
@@ -41,60 +47,180 @@
 
     <main>
 
-        <img class="marco" src="./img/GATE_BANNIERE_16.02_CAROLA_yopwyk.avif" alt="">
 
-        <h1 class="titulo">Nuevos Eventos</h1>
+            <img class="marco" src="./img/GATE_BANNIERE_16.02_CAROLA_yopwyk.avif" alt="">
 
-        <h2>Marco Carola en Gate Club Paris</h2>
+<section class="hero">
 
-        <p> El legendario Marco Carola llega con toda su energía, técnica impecable y ese groove inconfundible que lo ha
-            convertido en uno de los DJs más respetados del mundo. Con décadas de trayectoria en la escena electrónica,
-            sets maratónicos y una conexión única con el público. Ven a vivir una fiesta donde la música es protagonista
-            y la energía no baja hasta el amanecer.
-        </p>
+             <img class="fondo"
+                src="./img/MAS-DE-31.000-PERSONAS-VIBRARON-CON-EL-TECHNO-EN-LA-SEGUNDA-EDICION-DE-TIME-WARP-SPAIN2.jpg"
+                alt=""> 
+     
+        <div class="marcoparty">
 
+
+   
+                
+
+
+            <h1 class="titulo">Nuevos Eventos</h1>
+
+            <h2>Marco Carola en Gate Club Paris</h2>
+
+            <p> El legendario Marco Carola llega con toda su energía, técnica impecable y ese groove inconfundible que
+                lo ha
+                convertido en uno de los DJs más respetados del mundo. Con décadas de trayectoria en la escena
+                electrónica,
+                sets maratónicos y una conexión única con el público. Ven a vivir una fiesta donde la música es
+                protagonista
+                y la energía no baja hasta el amanecer.
+            </p>
+
+            <p>120 USD</p>
+
+            <button class="marcobutton">BUY TICKET</button>
+
+        </div>
 
         <div class="galeriabox">
 
 
 
-            <img class="richie" src="./img/RichieH.jpg" alt="">
+            <article>
 
-            <a href=""><h2>Richie Hawtin</h2></a>
+                <img class="richie" src="./img/RichieH.jpg" alt="">
+
+                <h2>Richie Hawtin</h2>
+
+                <button class="comprar" command="show-modal" commandfor="richie">SEE MORE</button>
+
+
+                <dialog class="ventana" id="richie">
+
+                    <h2>Richie Hawtin</h2>
+
+                    <img class="richiemodal" src="./img/RichieH.jpg" alt="">
+
+                    <p> Este año se celebra la 14.ª edición del Festival Internacional de Fotografía de Kioto
+                        «KYOTOGRAPHIE 2026» y su evento satélite «KG+», así como la 4.ª edición del festival de música
+                        sin fronteras «KYOTOPHONIE». Celebraremos la inauguración de estos tres festivales
+                        internacionales de arte con una fiesta de lanzamiento en METRO.
+                    </p>
+
+                    <p class="precios">80 USD</p>
+
+                    <a href="formulario.html"><button>BUY TICKET</button></a>
+
+                    <button class="close" command="close" commandfor="richie">[X]</button>
+
+                </dialog>
+
+            </article>
 
 
 
             <div class="box">
 
 
+
                 <img class="sven" src="./img/SvenVath.webp" alt="">
 
-                <a href=""><h2>Sven Vath</h2></a>
+                <h2>Sven Vath</h2>
+
+                <button class="comprar" command="show-modal" commandfor="svenmodal">SEE MORE</button>
+
+                <dialog class="ventana" id="svenmodal">
+
+                    <h2>Sven Vath</h2>
+
+                    <img class="svenmodalimg" src="./img/SvenVath.webp" alt="">
+
+                    <p> The official Sven Väth World Tour page is the ultimate destination for fans who want to
+                        experience the maestro of electronic music performing live. For over four decades, Sven Väth has
+                        traveled tirelessly across the globe to bring his unique vision of techno and house to the most
+                        prestigious dancefloors on earth.
+                    </p>
+
+                    <p class="precios">100 USD</p>
+
+                    <a href="formulario.html"><button>BUY TICKET</button></a>
+
+                    <button class="close" command="close" commandfor="svenmodal">[X]</button>
+
+                </dialog>
+
 
 
                 <img class="baum" src="./img/Baumshare-image.webp" alt="">
 
-                <a href=""><h2>Baum Festival</h2></a>
+                <h2>Baum Festival</h2>
 
+                <button class="comprar" command="show-modal" commandfor="baummodal">SEE MORE</button>
+
+                <dialog class="ventana" id="baummodal">
+
+                    <h2>Baum Festival</h2>
+
+                    <img class="baumimg" src="./img/Baumshare-image.webp" alt="">
+
+                    <p> Baum Festival 11 llega para reunir a miles de personas en una misma pista creada para todxs.
+                        Este año celebramos una nueva década del festival, un espacio donde las voces, los ritmos y los
+                        cuerpos se encuentran para vivir el poder de la música electrónica en comunidad. Porque vale la
+                        pena seguir bailando y porque la pista solo cobra vida cuando llegamos todxs, empezaremos
+                        nuestra nueva década soñando.
+                    </p>
+
+                    <p class="precios">50 USD</p>
+
+                    <a href="formulario.html"><button>BUY TICKET</button></a>
+
+                    <button class="close" command="close" commandfor="baummodal">[X]</button>
+
+                </dialog>
 
             </div>
 
         </div>
 
+        <h2>Discover new music</h2>
+
         <div class="musica">
 
-            <h2>Discover new music</h2>
+            <a href="https://www.youtube.com/watch?v=0CUuUpsiww8&list=RD0CUuUpsiww8&start_radio=1">
+                <div class="newmusic">
 
+                    <img class="album" src="./img/alarico1artworks-omljOLqdTS9908tO-Sx7WXg-t500x500.jpg" alt="">
+                    <p>Alarico - Iruka [PI06]</p>
 
+                </div>
+            </a>
 
+            <a href="https://www.youtube.com/watch?v=43BxjQ2CRxk&list=RD43BxjQ2CRxk&start_radio=1">
+                <div class="newmusic">
+                    <img class="album" src="./img/francoisxab67616d00001e022ec14344552f91b88261a077.jfif" alt="">
+                    <p>François X - The Wonderlightskin Condition</p>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=jwBsPtjQkgc&list=RDjwBsPtjQkgc&start_radio=1">
+                <div class="newmusic">
+                    <img class="album" src="./img/seigga3862628326_16.jpg" alt="">
+                    <p>Seigg - silver back</p>
+                </div>
+            </a>
 
         </div>
+</section>
 
 
     </main>
 
 
-    <footer></footer>
+    <footer>
+
+        <p>Derechos de autor</p>
+
+    </footer>
 
 </body>
 
