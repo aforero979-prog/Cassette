@@ -42,6 +42,7 @@ main{
     width: 150rem;
     height: 75rem;
     padding: 5rem;
+    margin: auto;
     
 }
 
@@ -59,6 +60,7 @@ main{
     width: 80rem;
     height: 80rem;
     padding: 5rem;
+    margin: auto;
     
 }
 
@@ -80,6 +82,7 @@ main{
     width: 80rem;
     height: 80rem;
     padding: 5rem;
+    margin: auto;
 
 }
 
@@ -93,8 +96,11 @@ main{
     align-items: center;
     padding: 0rem 0rem 5rem;
     
-
 }
 
+.ritdreamcard{
+
+    
+}
 
 

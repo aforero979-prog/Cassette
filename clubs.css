@@ -1,4 +1,4 @@
-*{
+* {
 
     padding: 0;
     margin: 0;
@@ -6,63 +6,163 @@
 
 }
 
-html{
+html {
 
     font-size: 62.5%;
     flex-wrap: wrap;
 
 }
 
-main{
+main {
 
     min-height: 100vh;
 }
 
-.tunneltitulo{
-
-    padding-top: 10rem ;
+.tunnelpereira{
+    
+    padding: 4rem;
 }
 
-.tunnelfoto{
+.tunnelcard {
 
-    width: 100rem;
-    height: 100rem;
-    padding-top: 20rem;
+    flex-wrap: wrap;
 }
 
-.tunnelinfo{
+.tunnel {
 
     display: block;
-    padding-top: 10rem;
 
 }
 
-.tunnelevents{
+.tunneltitulo {
 
-   gap: 5rem;
-   transform: ;
+    padding: 3rem;
 }
 
-.tunnel1{
+.tunnelfoto {
+
+    width: 90rem;
+    height: 90rem;
+
+}
+
+.pin {
+
+    height: 3.5rem;
+    padding: 0rem 0rem 0rem 2rem;
+
+}
+
+.location {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tunnelinfo {
 
     display: block;
-    text-align: center;
+    padding: .1rem 1rem;
+
+}
+
+.tunnelevents {
+
+    justify-content: space-between;
+
+}
+
+.tunnel1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border: .1rem solid rgb(66, 63, 63);
-    padding: 5rem;
+    border-radius: 2rem;
+    padding: 4rem;
     transition: .4s;
+    background-color: rgba(38, 38, 38, 0.773);
+
 }
 
-.tunnel1:hover{
+.tunnel1:hover {
 
     transform: scale(1.1)
 }
 
-.tunnel1img{
+.tunnel1img {
 
+    width: 30rem;
     height: 50rem;
+    object-fit: cover;
+
 }
 
-footer{
+.radioberlin{
+
+    padding: 4rem;
+    
+}
+
+.radio{
+
+    flex-wrap: wrap;
+    display: block;
+}
+
+.radioberlincard{
+
+    flex-wrap: wrap;
+    display: block;
+}
+
+.radiotitulo{
+
+    margin: 2rem;
+}
+
+.radioimg{
+
+    width: 150rem;
+    height: 75rem;
+    margin: auto;
+
+}
+
+.radio3img{
+
+    width: 45rem;
+    height: 70rem;
+    margin: auto;
+
+}
+
+.radioevents{
+
+    justify-content: center;
+    gap: 5rem;
+
+
+}
+
+.radio1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: .1rem solid rgb(66, 63, 63);
+    border-radius: 2rem;
+    padding: 4rem;
+    transition: .4s;
+    background-color: rgba(38, 38, 38, 0.773);
+
+}
+
+footer {
 
     background-color: rgba(0, 0, 0, 0.864);
 }
