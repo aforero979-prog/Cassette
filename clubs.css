@@ -1,0 +1,68 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    font-size: 62.5%;
+    flex-wrap: wrap;
+
+}
+
+main{
+
+    min-height: 100vh;
+}
+
+.tunneltitulo{
+
+    padding-top: 10rem ;
+}
+
+.tunnelfoto{
+
+    width: 100rem;
+    height: 100rem;
+    padding-top: 20rem;
+}
+
+.tunnelinfo{
+
+    display: block;
+    padding-top: 10rem;
+
+}
+
+.tunnelevents{
+
+   gap: 5rem;
+   transform: ;
+}
+
+.tunnel1{
+
+    display: block;
+    text-align: center;
+    border: .1rem solid rgb(66, 63, 63);
+    padding: 5rem;
+    transition: .4s;
+}
+
+.tunnel1:hover{
+
+    transform: scale(1.1)
+}
+
+.tunnel1img{
+
+    height: 50rem;
+}
+
+footer{
+
+    background-color: rgba(0, 0, 0, 0.864);
+}

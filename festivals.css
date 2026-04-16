@@ -13,6 +13,16 @@ html{
 
 }
 
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    min-height: 100vh;
+
+}
+
 .baumf{
 
     width: 100%;
@@ -20,11 +30,26 @@ html{
 
 }
 
+.baumcard{
+
+    display: block;
+    padding: 0rem 0rem 5rem;
+    
+}
+
 .doom{
 
-    width: 100rem;
-    height: 50rem;
+    width: 150rem;
+    height: 75rem;
     padding: 5rem;
+    
+}
+
+.doomfest{
+
+    display: block; 
+    padding: 0rem 0rem 9rem ; 
+    
     
 }
 
@@ -37,32 +62,39 @@ html{
     
 }
 
-main{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: block;
-
-}
-
-.doomfest{
-
-    display: block;  
-
-}
-
 .ritvalesfest{
 
     display: block;
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    border: 1rem solid white;
+    border: .1rem solid rgba(62, 62, 62, 0.858);
     width: 50%;
     text-align: justify;
     justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem 5rem;
     
+}
 
+.dreamfoto{
+    
+    display: flex;
+    width: 80rem;
+    height: 80rem;
+    padding: 5rem;
 
 }
+
+.dreamingfestcard{
+
+    display: block;
+    border: .1rem solid rgba(62, 62, 62, 0.858);
+    width: 50%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem 5rem;
+    
+
+}
+
+
+
